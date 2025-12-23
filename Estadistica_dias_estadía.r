@@ -1,5 +1,4 @@
-df <- read.csv("grd2024estesiquesi.csv")
-#luego de ir eliminando muchas columnas y datos...
+GRD2024 <- read.csv("GRD2024.2.0.csv")
 # Convertir a factores las variables categóricas (R puede leerlas como texto)
 GRD2024.2 <- GRD2024 %>%
   mutate(
@@ -147,3 +146,4 @@ ggplot(GRD2024.2, aes(x = fct_infreq(CategoriaDgMayor))) +
   theme(
     axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1)
   )
+
