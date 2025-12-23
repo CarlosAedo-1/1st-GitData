@@ -29,5 +29,7 @@ Como parte de un reporte para el Magíster en Salud Pública este estudio busca 
 ## 📄 Estructura del Repositorio
 * `/codigo`: Contiene el script `Estadística_dias_estadía.R` con la limpieza y modelado.
 * `/docs`: Contiene el informe completo en PDF con el detalle académico.
+* Nota importante: el documento GRD2024 se caracteriza dentro de muchas cosas por la cantidad de datos que posee, es por esto que los datos están diaponibles en la página de fonasa/datosabiertos/financiamientoygastoensalud/diagnosticoGRD/catalogodedatos/GRD2024.
+También considerar que solo se analizaron las columnas "sexo, previsión, tipo alta, edad_aprox (en años), dias_estadía (diferencia de egreso vs ingreso), conteo_rango (cantidad de diagnosticos secundarios que posee cada egreso) y categoría diagnostico mayor (tipo de GRD que se asigno al egreso).
 ---
 *Autor: Carlos Aedo - Profesional de Salud & Data Scientist en formación.*
